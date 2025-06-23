@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "5778843c-4607-467e-9c73-1e8dcadfb616",
+		"name": "Theme Park Wait Times",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45668539",
+		"_collection_link": "https://emersonfleming.postman.co/workspace/Emerson-Fleming's-Workspace~b88f3fc2-50f9-40d0-8493-0559a6167d03/collection/45668539-5778843c-4607-467e-9c73-1e8dcadfb616?action=share&source=collection_link&creator=45668539"
+	},
+	"item": [
+		{
+			"name": "Get all parks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://queue-times.com/parks.json",
+					"protocol": "https",
+					"host": [
+						"queue-times",
+						"com"
+					],
+					"path": [
+						"parks.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Six Flags Great Adventure (id 37)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://queue-times.com/parks/37/queue_times.json",
+					"protocol": "https",
+					"host": [
+						"queue-times",
+						"com"
+					],
+					"path": [
+						"parks",
+						"37",
+						"queue_times.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "California Adventure (id 17)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://queue-times.com/parks/17/queue_times.json",
+					"protocol": "https",
+					"host": [
+						"queue-times",
+						"com"
+					],
+					"path": [
+						"parks",
+						"17",
+						"queue_times.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
