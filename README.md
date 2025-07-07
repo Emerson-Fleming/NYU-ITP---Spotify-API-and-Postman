@@ -10,7 +10,6 @@ Documentation on Spotify API and Postman session I led at ITP Camp, NYU Tisch Sc
 ## Features
 
 - Spotify Live Update App w/ QR Code (Written in Python)
-- 
 
 ## Installation
 
@@ -36,4 +35,10 @@ cd NYU-ITP---Spotify-API-and-Postman
 - npm init -y
 - npm install node-fetch
 - node spotifyTopTracks.js
+
+# Postman
+- Import Postman collection(s)
+- In collection, fill required keys in the Authentication tab
+- Authenticate token and go through OAuth process
+- Use Spotify API (https://developer.spotify.com/documentation/web-api) to hit various endpoints within collection
 
